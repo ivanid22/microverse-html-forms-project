@@ -22,7 +22,7 @@ form {
     font-size: 14px;
     width: 318px;
     height: 390px;
-    background-color: lawngreen;
+    background-color: white;
 }
 
 form label, form input {
@@ -33,15 +33,43 @@ form input {
     margin-top: 5px;
     padding: 6px;
     width: 100%;
+    border: 1px solid gray;
+    border-radius: 3px;
 }
 
 form label {
-    margin-top: 5px;
+    margin-top: 40px;
 }
 
 fieldset {
     border: none;
-    margin-right: 19px;
+    margin-right: 10px;
+    margin-left: -7px;
+}
+
+#phone-warning {
+    font-size: 10px;
+    padding: 5px 0;
+}
+
+#padlock-image-input {
+    width: 18px;
+    position: relative;
+    top: -23px;
+    left: 283px;
+}
+
+#padlock-closed-image-input {
+    width: 12.59px;
+    height: 15.75px;
+}
+
+#submit-button {
+    color: white;
+    background-color: #0077C5;
+    font-size: 19px;
+    width: 98%;
+    margin: 0px 3px;
 }
 
 footer {
