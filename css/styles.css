@@ -19,9 +19,29 @@ main {
 }
 
 form {
+    font-size: 14px;
     width: 318px;
     height: 390px;
     background-color: lawngreen;
+}
+
+form label, form input {
+    display: block;
+}
+
+form input {
+    margin-top: 5px;
+    padding: 6px;
+    width: 100%;
+}
+
+form label {
+    margin-top: 5px;
+}
+
+fieldset {
+    border: none;
+    margin-right: 19px;
 }
 
 footer {
@@ -96,6 +116,7 @@ a {
 }
 
 #main-container {
+    background-color: white;
     width: 318px;
     height: 606px;
     padding: 30px;
@@ -104,10 +125,10 @@ a {
 }
 
 #form-description-container {
+    background-color: white;
     height: 78px;
     width: 318px;
     padding-bottom: 20px;
-    background-color: khaki;
     text-align: center;
 }
 
