@@ -70,6 +70,9 @@ fieldset {
     font-size: 19px;
     width: 98%;
     margin: 0px 3px;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px 0;
 }
 
 footer {
@@ -177,9 +180,16 @@ a {
 
 
 #terms-container {
+    text-align: center;
     width: 318px;
     height: 63px;
-    background-color: lightblue;
+    background-color: white;
+}
+
+#terms-text {
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
 }
 
 #recaptcha-terms-container {
