@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 body {
     width: 100%;
-    background-color: antiquewhite;
+    background: #ECEEF1;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
     width: 100%;
     height: 35px;
     padding: 20px 0;
-    background-color: burlywood;
+    background-color: transparent;
 }
 
 main {
@@ -28,11 +31,15 @@ footer {
     background: tomato;
 }
 
+a {
+    text-decoration: none;
+}
+
 #navbar {
     width: 100%;
     height: 40px;
     padding: 10px 30px;
-    background-color: aquamarine;
+    background-color: transparent;
 }
 
 #sign-in-section {
@@ -47,7 +54,7 @@ footer {
 #header-section {
     width: 100%;
     height: 35px;
-    background-color: aqua;
+    background-color: transparent;
     text-align: center;
 }
 
@@ -63,7 +70,29 @@ footer {
 #icons-container {
     width: 100%;
     height: 42px;
-    background-color: rebeccapurple;
+    background-color: transparent;
+    text-align: center;
+}
+
+.image-icon {
+    width: 23px;
+    height: 23px;
+    margin-right: 4px;
+}
+
+#mint-icon {
+    width: 37px;
+    height: 20px;
+}
+
+#quick-books-icon {
+    width: 98px;
+    height: 22px;
+}
+
+#turbo-tax-icon {
+    width: 74px;
+    height: 22px;
 }
 
 #main-container {
@@ -79,7 +108,24 @@ footer {
     width: 318px;
     padding-bottom: 20px;
     background-color: khaki;
+    text-align: center;
 }
+
+#form-description-container h2 {
+    color: #4C4C4C;
+    font-size: 24px;
+}
+
+#form-description-container p {
+    color: #4C4C4C;
+    font-size: 14px;
+}
+
+#form-description-container a {
+    color: #0077C5;
+    font-size: 12px;
+}
+
 
 #terms-container {
     width: 318px;
