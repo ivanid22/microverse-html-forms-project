@@ -17,3 +17,36 @@ body {
     float: right;
     background-color: cadetblue;
 }
+
+header {
+    width: 100%;
+    height: 35px;
+    padding: 20px 0;
+    background-color: burlywood;
+}
+
+#header-section {
+    width: 100%;
+    height: 35px;
+    background-color: aqua;
+    text-align: center;
+}
+
+#header-image {
+    background-image: url('https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/ecosystem_logos_new@2x.png');
+    background-position: 0 0;
+    width: 118px;
+    height: 35px;
+    background-size: 562px 83px;
+    display: inline-block;
+}
+
+main {
+    width: 100%;
+}
+
+#icons-container {
+    width: 100%;
+    height: 42px;
+    background-color: rebeccapurple;
+}
