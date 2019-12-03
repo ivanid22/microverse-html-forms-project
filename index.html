@@ -2,6 +2,7 @@
 
 <html lang="en-us">
     <head>
+        <title>Mint.com sign up page</title>
         <link rel="stylesheet" href="css/styles.css">
         <meta charset="utf-8">
     </head>
@@ -9,11 +10,12 @@
         <div id="navbar">
             <div id="sign-in-section">
                 <div id="sign-in-caption-container">
-                    
+                    Already have an Intuit account? <br>
+                    <a href="#">I forgot my User ID or Password</a>
                 </div>
                 <div id="sign-in-button-container">
-                    <button class="submit-button">
-                        <img src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png" alt="padlock" id="padlock-closed-image-input">
+                    <button class="submit-button" id="sign-in-button">
+                        <img src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png" alt="padlock" class="padlock-closed-image-input">
                         Sign in
                     </button>
                 </div>
@@ -37,7 +39,7 @@
                 <div id="main-form-container">
                     <div id="form-description-container">
                         <h2>Create an Intuit account</h2>
-                        <p>One account for everything Intuit, including Mint.<br><a href="#" target="_blank">Learn more</a></a></p>
+                        <p>One account for everything Intuit, including Mint.<br><a href="#" target="_blank">Learn more</a></p>
                     </div>
                     <form>
                         <fieldset>
@@ -47,14 +49,13 @@
                             <input type="tel" id="phone-field" name="phone">
                             <span id="phone-warning">Standard call, messaging or data rates may apply.</span>
                             <label for="password-field">Password</label>
-                            <input type="password" id="email-field" name="password">
+                            <input type="password" id="password-field" name="password">
                             <img src="https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png" alt="lock" id="padlock-image-input">
                         </fieldset>
                         <button class="submit-button">
-                                <img src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png" alt="padlock" id="padlock-closed-image-input">
+                                <img src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png" alt="padlock" class="padlock-closed-image-input">
                                 Create account
-                        </button>
-                        
+                        </button>                       
                     </form>
                     <div id="terms-container">
                         <span id="terms-text">
