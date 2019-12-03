@@ -6,16 +6,19 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <nav id="navbar">
+        <div id="navbar">
             <div id="sign-in-section">
                 <div id="sign-in-caption-container">
                     
                 </div>
                 <div id="sign-in-button-container">
-
+                    <button class="submit-button">
+                        <img src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png" alt="padlock" id="padlock-closed-image-input">
+                        Sign in
+                    </button>
                 </div>
             </div>
-        </nav>
+        </div>
         <header>
             <div id="header-section">
                 <span id="header-image"></span>
@@ -39,7 +42,7 @@
                     <form>
                         <fieldset>
                             <label for="email-field">Email</label>
-                            <input type="text" id="email-field" name="email">
+                            <input type="email" id="email-field" name="email">
                             <label for="phone-field">Phone (Recommended)</label>
                             <input type="tel" id="phone-field" name="phone">
                             <span id="phone-warning">Standard call, messaging or data rates may apply.</span>
@@ -47,7 +50,7 @@
                             <input type="password" id="email-field" name="password">
                             <img src="https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png" alt="lock" id="padlock-image-input">
                         </fieldset>
-                        <button id="submit-button">
+                        <button class="submit-button">
                                 <img src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png" alt="padlock" id="padlock-closed-image-input">
                                 Create account
                         </button>
@@ -56,17 +59,19 @@
                     <div id="terms-container">
                         <span id="terms-text">
                                 By clicking Create account, you agree to our
-                                Terms and have read and acknowledge our Privacy Statement.
+                                <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
                         </span>
                     </div>
                 </div>
                 <div id="recaptcha-terms-container">
-
+                    Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
                 </div>
             </div>
         </main>
         <footer>
-
+            <a href="#">Legal </a><a href="#">Privacy </a><a href="#">Security </a><br>
+            © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.
         </footer>
     </body>
 </html>
