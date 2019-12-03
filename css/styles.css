@@ -60,9 +60,9 @@ fieldset {
   left: 283px;
 }
 
-#padlock-closed-image-input {
-  width: 12.59px;
-  height: 15.75px;
+.padlock-closed-image-input {
+    width: 12.59px;
+    height: 15.75px;
 }
 
 .submit-button {
@@ -92,17 +92,36 @@ a {
 }
 
 #navbar {
-  width: 100%;
-  height: 40px;
-  padding: 10px 30px;
-  background-color: transparent;
+    height: 40px;
+    padding: 10px 30px;
+    background-color: transparent;
 }
 
 #sign-in-section {
-  width: 293px;
-  height: 36px;
-  float: right;
-  background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 293px;
+    height: 36px;
+    float: right;
+    background-color: transparent;
+}
+
+#sign-in-caption-container {
+    line-height: 19px;
+    flex: 1.4;
+    font-size: 12px;
+    width: 170px;
+    background-color: transparent;
+}
+
+#sign-in-button-container {
+    flex: 0.75;
+}
+
+#sign-in-button {
+    padding: 5px 0;
 }
 
 #header-section {
