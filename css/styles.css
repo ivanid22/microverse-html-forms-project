@@ -95,6 +95,7 @@ a {
   height: 40px;
   padding: 10px 30px;
   background-color: transparent;
+  margin-top: 20px;
 }
 
 #sign-in-section {
@@ -171,7 +172,7 @@ a {
 #main-container {
   background-color: white;
   width: 318px;
-  height: 618px;
+  height: 628px;
   padding: 30px;
   margin: auto;
   border: 1px solid grey;
@@ -205,6 +206,7 @@ a {
   width: 318px;
   height: 63px;
   background-color: white;
+  margin-top: 10px;
 }
 
 #terms-text {

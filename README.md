@@ -20,11 +20,11 @@ This project was our first contact with HTML forms, and all its different elemen
 
 👤 **Javier Botero**
 
-- Github: [@githubhandle](https://github.com/javierbotero)
+- Github: [@javierbotero](https://github.com/javierbotero)
 
 👤 **Ivan Diaz**
 
-- Github: [@githubhandle](https://github.com/ivanid22)
+- Github: [@ivanid22](https://github.com/ivanid22)
 
 ## Show your support
 
