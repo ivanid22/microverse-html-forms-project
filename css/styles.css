@@ -1,210 +1,206 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
-    width: 100%;
-    background: #ECEEF1;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  background: #eceef1;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    width: 100%;
-    height: 35px;
-    padding: 20px 0;
-    background-color: transparent;
+  width: 100%;
+  height: 35px;
+  padding: 20px 0;
+  background-color: transparent;
 }
 
 main {
-    width: 100%;
+  width: 100%;
 }
 
 form {
-    font-size: 14px;
-    width: 318px;
-    height: 390px;
-    background-color: white;
+  font-size: 14px;
+  width: 318px;
+  height: 390px;
+  background-color: white;
 }
 
-form label, 
+form label,
 form input {
-    display: block;
+  display: block;
 }
 
 form input {
-    margin-top: 5px;
-    padding: 6px;
-    width: 100%;
-    border: 1px solid gray;
-    border-radius: 3px;
+  margin-top: 5px;
+  padding: 6px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 3px;
 }
 
 form label {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 fieldset {
-    border: none;
-    margin-right: 10px;
-    margin-left: -7px;
+  border: none;
+  margin-right: 10px;
+  margin-left: -7px;
 }
 
 #phone-warning {
-    font-size: 10px;
-    padding: 5px 0;
+  font-size: 10px;
+  padding: 5px 0;
 }
 
 #padlock-image-input {
-    width: 18px;
-    position: relative;
-    top: -23px;
-    left: 283px;
+  width: 18px;
+  position: relative;
+  top: -23px;
+  left: 283px;
 }
 
 #padlock-closed-image-input {
-    width: 12.59px;
-    height: 15.75px;
+  width: 12.59px;
+  height: 15.75px;
 }
 
 .submit-button {
-    color: white;
-    background-color: #0077C5;
-    font-size: 19px;
-    width: 98%;
-    margin: 0px 3px;
-    border: 1px solid;
-    border-radius: 4px;
-    padding: 10px 0;
+  color: white;
+  background-color: #0077c5;
+  font-size: 19px;
+  width: 98%;
+  margin: 0 3px;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 10px 0;
 }
 
 footer {
-    height: 59px;
-    padding: 20px 0;
-    margin: auto;
-    background: transparent;
-    text-align: center;
-    font-size: 12px;
-    color: #505050;
-    line-height: 22px;
+  height: 59px;
+  padding: 20px 0;
+  margin: auto;
+  background: transparent;
+  text-align: center;
+  font-size: 12px;
+  color: #505050;
+  line-height: 22px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #navbar {
-    width: 100%;
-    height: 40px;
-    padding: 10px 30px;
-    background-color: transparent;
+  width: 100%;
+  height: 40px;
+  padding: 10px 30px;
+  background-color: transparent;
 }
 
 #sign-in-section {
-    width: 293px;
-    height: 36px;
-    float: right;
-    background-color: cadetblue;
+  width: 293px;
+  height: 36px;
+  float: right;
+  background-color: cadetblue;
 }
 
-
-
 #header-section {
-    width: 100%;
-    height: 35px;
-    background-color: transparent;
-    text-align: center;
+  width: 100%;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
 }
 
 #header-image {
-    background-image: url('https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/ecosystem_logos_new@2x.png');
-    background-position: 0 0;
-    width: 118px;
-    height: 35px;
-    background-size: 562px 83px;
-    display: inline-block;
+  background-image: url('https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/ecosystem_logos_new@2x.png');
+  background-position: 0 0;
+  width: 118px;
+  height: 35px;
+  background-size: 562px 83px;
+  display: inline-block;
 }
 
 #icons-container {
-    width: 100%;
-    height: 42px;
-    background-color: transparent;
-    text-align: center;
+  width: 100%;
+  height: 42px;
+  background-color: transparent;
+  text-align: center;
 }
 
 .image-icon {
-    width: 23px;
-    height: 23px;
-    margin-right: 4px;
+  width: 23px;
+  height: 23px;
+  margin-right: 4px;
 }
 
 #mint-icon {
-    width: 37px;
-    height: 20px;
+  width: 37px;
+  height: 20px;
 }
 
 #quick-books-icon {
-    width: 98px;
-    height: 22px;
+  width: 98px;
+  height: 22px;
 }
 
 #turbo-tax-icon {
-    width: 74px;
-    height: 22px;
+  width: 74px;
+  height: 22px;
 }
 
 #main-container {
-    background-color: white;
-    width: 318px;
-    height: 618px;
-    padding: 30px;
-    margin: auto;
-    border: 1px solid grey;
+  background-color: white;
+  width: 318px;
+  height: 618px;
+  padding: 30px;
+  margin: auto;
+  border: 1px solid grey;
 }
 
 #form-description-container {
-    background-color: white;
-    height: 78px;
-    width: 318px;
-    padding-bottom: 20px;
-    text-align: center;
+  background-color: white;
+  height: 78px;
+  width: 318px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 #form-description-container h2 {
-    color: #4C4C4C;
-    font-size: 24px;
+  color: #4c4c4c;
+  font-size: 24px;
 }
 
 #form-description-container p {
-    color: #4C4C4C;
-    font-size: 14px;
+  color: #4c4c4c;
+  font-size: 14px;
 }
 
 #form-description-container a {
-    color: #0077C5;
-    font-size: 12px;
+  color: #0077c5;
+  font-size: 12px;
 }
 
-
 #terms-container {
-    text-align: center;
-    width: 318px;
-    height: 63px;
-    background-color: white;
+  text-align: center;
+  width: 318px;
+  height: 63px;
+  background-color: white;
 }
 
 #terms-text {
-    font-size: 12px;
-    font-style: italic;
-    color: #757575;
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
 }
 
 #recaptcha-terms-container {
-    width: 354px;
-    height: 21px;
-    padding: 12px;
-    background-color: #eceef1;
-    margin: 32px -30px -30px -30px;
-    font-size: 10px;
-    text-align: center;
-    color: #8d9096
+  width: 354px;
+  height: 21px;
+  padding: 12px;
+  background-color: #eceef1;
+  margin: 32px -30px -30px -30px;
+  font-size: 10px;
+  text-align: center;
+  color: #8d9096;
 }
-
